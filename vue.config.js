@@ -12,6 +12,7 @@ module.exports = {
     baseUrl: process.env.NODE_ENV === 'production'
     ? '/express/'
     : '/',
+    outputDir:'docs',
     productionSourceMap: false,
     chainWebpack: config => {
         config.module
