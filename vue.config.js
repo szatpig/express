@@ -25,8 +25,9 @@ module.exports = {
             .options({
                 remUnit: 75
             });
-        config.externals(externals)
+        config.externals(externals);
     },
+
     devServer: {
         host: '0.0.0.0',
         port: 3333,
